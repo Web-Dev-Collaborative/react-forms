@@ -29,3 +29,4 @@ In order to [POST] a new friend we must supply several required fields.
     "civil": "single"
   }
 ```
+![design-files](./src/design-files/form.png)

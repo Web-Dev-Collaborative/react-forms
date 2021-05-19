@@ -77,29 +77,16 @@ export default function FriendForm(props) {
             <option value='tl'>Team Lead</option>
           </select>
         </label>
-//use 
+
         {/* ////////// RADIO BUTTONS ////////// */}
         {/* ////////// RADIO BUTTONS ////////// */}
         {/* ////////// RADIO BUTTONS ////////// */}
         <label>Single
-          <input
-            type="radio"
-            name="civil" //name field is like id ...should match up with whatever is in the initial form values
-            value="single"
-            onChange={ onChange }
-            checked={values.civil==='single'}
 
-            />
         </label>
 
         <label>Married
-          <input
-            type = 'radio'
-            name = 'civil'
-            value = 'married'
-            onChange={ onChange }
-               checked={values.civil==='married'}
-            />
+
         </label>
       </div>
 
